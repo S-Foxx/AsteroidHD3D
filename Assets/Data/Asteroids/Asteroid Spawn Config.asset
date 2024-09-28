@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a074976c87c9d44ba06e6348aaf5777, type: 3}
+  m_Name: Asteroid Spawn Config
+  m_EditorClassIdentifier: 
+  asteroidPrefabs:
+  - {fileID: 11400000, guid: 3236bf113d3505844a1b0f95b9a2325e, type: 2}
+  - {fileID: 11400000, guid: ccee8f3d8b46a0f45af57248276fa9af, type: 2}
+  - {fileID: 11400000, guid: e2845115d0346f84294d8a5ee68646f7, type: 2}
+  - {fileID: 11400000, guid: f8bbd3bbef5812441a933d90393da4a8, type: 2}
+  smallAsteroidChance: 0.5
+  mediumAsteroidChance: 0.3
+  largeAsteroidChance: 0.2
